@@ -1,61 +1,75 @@
-body{
- font-family: Arial, Helvetica, sans-serif;
- line-height: 1.6; 
- background-color:lightslategray;
- margin: 0px;
- padding: 0px;
-}
-    /* personalização do index   */
-h1{
-    color: black;
-    text-align: center;
-    
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: lightslategray;
+    margin: 0px;
+    padding: 0px;
 }
 
-h3{
+/* personalização do index   */
+h1 {
+    color: black;
+    text-align: center;
+
+}
+
+h3 {
     color: #131212;
     font: normal 18px arial, verdana, serif;
     text-align: center;
 }
 
-.logo{
-  
-  width: 100%;
-  height: auto;
-  margin: 4px;
-  padding: 0px;
-    
+.logo {
+
+    width: 100%;
+    height: auto;
+    margin: 4px;
+    padding: 0px;
+
 }
 
-img{
-    display:flex;
+img {
+    display: flex;
     flex-direction: row;
     justify-content: center;
-  margin: 0 auto;
-  padding: 0px;
-  width: 30%;
-  
+    margin: 0 auto;
+    padding: 0px;
+    width: 30%;
+
 }
-  
-.texto{
+
+.texto {
     color: rgb(16, 16, 17);
-    text-align:center;
-    font: bold 18px arial, verdana, serif; 
+    text-align: center;
+    font: bold 18px arial, verdana, serif;
 }
-.frase{
+
+.frase {
     color: rgb(248, 13, 13);
     text-align: center;
     font: bold 22px arial, verdana, serif;
 }
-.palavra{
+
+.palavra {
     color: blue;
     text-align: center;
     font: bold 22px arial, verdana, serif;
 }
-    /* Menu */
-.nav{
+
+/* Barra de navegação */
+#nav-nova {
+    background-color: #ff0000;
     display: flex;
-    flex-direction:column;
+    align-items: end;
+    height: 300px;
+    background-image: url('https://reisenthal.com.br/wp-content/uploads/2019/05/franca_tor_eiffel-1200x440.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
     position: static;
     width: 100%;
     height: auto;
@@ -82,23 +96,24 @@ nav a {
 nav a:hover {
     color: #ff0000;
 }
-    /*Seção de Experiências em Vídeo*/
-    
-.video{
-    display:flex;
+
+/*Seção de Experiências em Vídeo*/
+
+.video {
+    display: flex;
     flex-direction: row;
     justify-content: center;
     flex-direction: column;
-  margin: 0 auto;
-  padding: 0px;
-  width: 25%;
-  color: rgb(16, 16, 17);
-  font: bold 18px arial, verdana, serif;
-  
-}    
+    margin: 0 auto;
+    padding: 0px;
+    width: 25%;
+    color: rgb(16, 16, 17);
+    font: bold 18px arial, verdana, serif;
+
+}
 
 
-    /*imagem lado a lado */
+/*imagem lado a lado */
 #criadores {
     display: flex;
     flex-direction: column;
@@ -106,47 +121,52 @@ nav a:hover {
     justify-items: center;
     align-items: center;
     margin: 10%;
-    
-   
 
-  }
-  
-  .column {
-    flex: 33,33%;
+
+
+}
+
+.column {
+    flex: 33, 33%;
     padding: 5px;
-    
-    
-  }
-  h2{
+
+
+}
+
+h2 {
     display: flex;
     justify-content: center;
     text-align: center;
-    font: normal 20px arial, verdana, serif; 
-    
-  }
-  .pedra{
+    font: normal 20px arial, verdana, serif;
+
+}
+
+.pedra {
     text-align: center;
     font: bold 20px arial, serif;
     margin: 0px;
-  }
-  hr{
+}
+
+hr {
     border-color: #ff0000;
 
-  }
-        /*Formulario de longin*/
-  #contato {
+}
+
+/*Formulario de longin*/
+#contato {
     display: flex;
     flex-direction: column;
-    align-items:center;
-    align-content:center;
+    align-items: center;
+    align-content: center;
     justify-content: center;
-    margin:auto;
+    margin: auto;
     left: center;
     padding: 0%;
     width: 40%;
-    height:20vh;
-    
+    height: 20vh;
+
 }
+
 .formLogin {
     display: flex;
     flex-direction: column;
@@ -156,6 +176,7 @@ nav a:hover {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
     gap: 5px
 }
+
 .formLogin h1 {
     padding: 0;
     margin: 0;
@@ -163,12 +184,14 @@ nav a:hover {
     font-size: 2.3em;
     font: bold 20px Arial, sans-serif;
 }
+
 .formLogin p {
     display: inline-block;
     font-size: 14px;
     color: #666;
     margin-bottom: 25px;
 }
+
 .formLogin input {
     padding: 15px;
     font-size: 14px;
@@ -179,10 +202,12 @@ nav a:hover {
     transition: all linear 160ms;
     outline: none;
 }
+
 .formLogin label {
     font-size: 14px;
     font-weight: 600;
 }
+
 .btn {
     background-color: #39663f;
     color: #fff;
@@ -194,12 +219,14 @@ nav a:hover {
     margin: 0 !important;
 
 }
+
 .btn:hover {
     transform: scale(1.05);
     background-color: #060aff;
 
 }
-      /*Tabela do Cardapio*/
+
+/*Tabela do Cardapio*/
 /*#cardapio{
     text-align: center;
 }
