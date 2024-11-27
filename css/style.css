@@ -1,0 +1,241 @@
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ line-height: 1.6; 
+ background-color:lightslategray;
+ margin: 0px;
+ padding: 0px;
+}
+    /* personalização do index   */
+h1{
+    color: black;
+    text-align: center;
+    
+}
+
+h3{
+    color: #131212;
+    font: normal 18px arial, verdana, serif;
+    text-align: center;
+}
+
+.logo{
+  
+  width: 100%;
+  height: auto;
+  margin: 4px;
+  padding: 0px;
+    
+}
+
+img{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  margin: 0 auto;
+  padding: 0px;
+  width: 30%;
+  
+}
+  
+.texto{
+    color: rgb(16, 16, 17);
+    text-align:center;
+    font: bold 18px arial, verdana, serif; 
+}
+.frase{
+    color: rgb(248, 13, 13);
+    text-align: center;
+    font: bold 22px arial, verdana, serif;
+}
+.palavra{
+    color: blue;
+    text-align: center;
+    font: bold 22px arial, verdana, serif;
+}
+    /* Menu */
+.nav{
+    display: flex;
+    flex-direction:column;
+    position: static;
+    width: 100%;
+    height: auto;
+    margin: 3px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #131212;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff0000;
+}
+    /*Seção de Experiências em Vídeo*/
+    
+.video{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
+  margin: 0 auto;
+  padding: 0px;
+  width: 25%;
+  color: rgb(16, 16, 17);
+  font: bold 18px arial, verdana, serif;
+  
+}    
+
+
+    /*imagem lado a lado */
+#criadores {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 10%;
+    
+   
+
+  }
+  
+  .column {
+    flex: 33,33%;
+    padding: 5px;
+    
+    
+  }
+  h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: normal 20px arial, verdana, serif; 
+    
+  }
+  .pedra{
+    text-align: center;
+    font: bold 20px arial, serif;
+    margin: 0px;
+  }
+  hr{
+    border-color: #ff0000;
+
+  }
+        /*Formulario de longin*/
+  #contato {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content:center;
+    justify-content: center;
+    margin:auto;
+    left: center;
+    padding: 0%;
+    width: 40%;
+    height:20vh;
+    
+}
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(97, 106, 109);
+    border-radius: 7px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+    gap: 5px
+}
+.formLogin h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+    font: bold 20px Arial, sans-serif;
+}
+.formLogin p {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+.formLogin label {
+    font-size: 14px;
+    font-weight: 600;
+}
+.btn {
+    background-color: #39663f;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+}
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #060aff;
+
+}
+      /*Tabela do Cardapio*/
+/*#cardapio{
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    }
+    
+    table {
+    border-collapse: collapse;
+    margin: auto;
+    }
+    
+    th, td{
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+    }
+    
+    th{
+    font-weight: bold;
+    }
+    
+    
+    tr:nth-child(even) {
+    background-color: #DCEBE6;
+    }
+    
+    tr:hover:nth-child(1n + 2) {
+    background-color: #085F63;
+    color: #fff;
+    }
+
+
+
+
+    
+
+
+ 
